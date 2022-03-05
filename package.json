@@ -1,0 +1,14 @@
+{
+  "name": "minimal-parcel",
+  "private": false,
+  "version": "0.0.1",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "tsc && parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest",
+    "typescript": "latest"
+  }
+}
