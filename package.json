@@ -2,6 +2,7 @@
   "name": "minimal-parcel",
   "private": true,
   "version": "0.0.1",
+  "license": "MIT",
   "packageManager": "bun@1.4.0",
   "source": "index.html",
   "scripts": {
