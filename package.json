@@ -1,6 +1,6 @@
 {
   "name": "minimal-parcel",
-  "private": false,
+  "private": true,
   "version": "0.0.1",
   "packageManager": "bun@1.4.0",
   "source": "index.html",
