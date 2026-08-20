@@ -2,10 +2,12 @@
   "name": "minimal-parcel",
   "private": false,
   "version": "0.0.1",
+  "packageManager": "bun@1.4.0",
   "source": "index.html",
   "scripts": {
     "start": "parcel",
-    "build": "tsc && parcel build"
+    "build": "tsc && parcel build",
+    "audit": "bun audit --audit-level=high"
   },
   "devDependencies": {
     "parcel": "^2.16.4",
