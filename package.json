@@ -1,9 +1,17 @@
 {
   "name": "minimal-parcel",
-  "private": true,
   "version": "0.0.1",
+  "private": true,
+  "description": "A minimal starting structure using Parcel and TypeScript",
+  "bugs": {
+    "url": "https://github.com/MrBrunoWolff/minimal-parcel/issues"
+  },
   "license": "MIT",
-  "packageManager": "bun@1.4.0",
+  "author": "Bruno Wolff",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrBrunoWolff/minimal-parcel.git"
+  },
   "source": "index.html",
   "scripts": {
     "start": "parcel",
@@ -13,5 +21,6 @@
   "devDependencies": {
     "parcel": "^2.16.4",
     "typescript": "^7.0.2"
-  }
+  },
+  "packageManager": "bun@1.4.0"
 }
