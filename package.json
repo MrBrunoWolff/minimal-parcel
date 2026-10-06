@@ -16,11 +16,14 @@
   "scripts": {
     "start": "parcel",
     "build": "tsc && parcel build",
-    "audit": "bun audit --audit-level=high"
+    "audit": "bun audit --audit-level=high",
+    "check:ci": "node scripts/quality.mjs",
+    "check:code": "node scripts/quality.mjs code",
+    "check:security": "node scripts/quality.mjs security"
   },
   "devDependencies": {
     "parcel": "latest",
     "typescript": "latest"
   },
-  "packageManager": "bun@1.4.0"
+  "packageManager": "bun@1.4.2"
 }
