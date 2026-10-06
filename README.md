@@ -65,3 +65,8 @@ The two dependency checks cover different risks. `minimumReleaseAge` in `bunfig.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+All declared runtime and development dependencies use `latest`, including
+TypeScript where present. Bun resolves eligible stable releases behind the
+three-day release-age guard; commit the refreshed lockfile and verify a frozen
+install after each update.
